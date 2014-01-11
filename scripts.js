@@ -2,10 +2,10 @@
 
 function sayhello() {
 	alert('Hallo Grossmeister!');
-}	
+};	
 
-  function install(ev) {
-    ev.preventDefault();
+function install() {
+    //ev.preventDefault();
     // define the manifest URL
     var manifest_url = "http://javabird1412.github.io/App/manifest.webapp";
     alert(manifest_url);
@@ -19,7 +19,7 @@ function sayhello() {
       // App wasn't installed, info is in this.error.name
       console.log('Install failed, error: ' + this.error.name);
      };
-  };
+ };
   // get a reference to the button and call install() on click
   //var button = document.getElementById('install');
   //button.addEventListener('click', install, false);
