@@ -21,5 +21,5 @@ function sayhello() {
      };
   };
   // get a reference to the button and call install() on click
-  var button = document.getElementById('install');
-  button.addEventListener('click', install, false);
+  //var button = document.getElementById('install');
+  //button.addEventListener('click', install, false);
