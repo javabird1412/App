@@ -1,0 +1,14 @@
+header {
+        background-color: #cccccc;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        
+}
+        
+footer {
+        background-color: #cccccc;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+}
