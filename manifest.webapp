@@ -7,13 +7,13 @@
         "launch_path": "/index.html",
         "appcache_path": "/cache.manifest",
         "icons": {
-                "32": "/images/icons/iconhund-32.png",
-                "60": "/images/icons/iconhund-60.png",
-                "64": "/images/icons/iconhund-64.png",
-                "90": "/images/icons/iconhund-90.png",
-                "120": "/images/icons/iconhund-120.png",
-                "128": "/images/icons/iconhund-128.png",
-                "256": "/images/icons/iconhund-256.png"
+                "32": "/images/iconhund-32.png",
+                "60": "/images/iconhund-60.png",
+                "64": "/images/iconhund-64.png",
+                "90": "/images/iconhund-90.png",
+                "120": "/images/iconhund-120.png",
+                "128": "/images/iconhund-128.png",
+                "256": "/images/iconhund-256.png"
         },
         "developer": {
                 "name": "Karsten Szczepanowski",
