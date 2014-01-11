@@ -4,11 +4,11 @@ function sayhello() {
 	alert('Hallo Grossmeister!');
 }	
 
-(function(){
   function install(ev) {
     ev.preventDefault();
     // define the manifest URL
     var manifest_url = "http://javabird1412.github.io/App/manifest.webapp";
+    alert(manifest_url);
     // install the app
     var myapp = navigator.mozApps.install(manifest_url);
     myapp.onsuccess = function(data) {
@@ -23,4 +23,3 @@ function sayhello() {
   // get a reference to the button and call install() on click
   var button = document.getElementById('install');
   button.addEventListener('click', install, false);
-})();
